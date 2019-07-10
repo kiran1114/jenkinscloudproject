@@ -85,11 +85,11 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.1.1</version>
 				<configuration> 
-					<deploymentType>${deployment.type}</deploymentType>
+					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>${username}</username>
-					<password>${password}</password>
-					<environment>${environment}</environment>
+					<username>vchinna</username>
+					<password>Mywork@12</password>
+					<environment>dev</environment>
 					<target>server</target>
 					<region>${region}</region>
 					<targetType>server</targetType>
