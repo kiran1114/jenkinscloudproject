@@ -85,7 +85,7 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>2.1.1</version>
 				<configuration> 
-					<deploymentType>cloudhub</deploymentType>
+					<deploymentType>${deployment.type}</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
 					<username>kiran12</username>
 					<password>Kiran@12</password>
