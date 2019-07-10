@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mycompany</groupId>
-	<artifactId>jenkinssample</artifactId>
+	<artifactId>jenkinssampleproject</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>Mule jenkinssampleproject Application</name>
@@ -87,9 +87,9 @@
 				<configuration> 
 					<deploymentType>${deployment.type}</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>kiran12</username>
-					<password>Kiran@12</password>
-					<environment>dev</environment>
+					<username>${username}</username>
+					<password>${password}</password>
+					<environment>${environment}</environment>
 					<target>server</target>
 					<region>${region}</region>
 					<targetType>server</targetType>
