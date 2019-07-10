@@ -41,18 +41,6 @@
 				<env>qa</env>
 			</properties>
 		</profile>
-		<profile>
-			<id>prod</id>
-			<activation>
-				<property>
-					<name>env</name>
-					<value>prod</value>
-				</property>
-			</activation>
-			<properties>
-				<env>prod</env>
-			</properties>
-		</profile>
 	</profiles>
 	<build>
 		<plugins>
