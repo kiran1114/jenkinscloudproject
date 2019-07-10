@@ -87,9 +87,9 @@
 				<configuration> 
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>kkkiran11</username>
-					<password>Kiran@1114</password>
-					<environment>development</environment>
+					<username>anipanion</username>
+					<password>Anipanion123</password>
+					<environment>qa</environment>
 					<target>server</target>
 					<region>${region}</region>
 					<targetType>server</targetType>
