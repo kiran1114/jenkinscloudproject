@@ -89,7 +89,7 @@
 					<muleVersion>${mule.version}</muleVersion>
 					<username>anipanion</username>
 					<password>Anipanion123</password>
-					<environment>qa</environment>
+					<environment>dev</environment>
 					<target>server</target>
 					<region>${region}</region>
 					<targetType>server</targetType>
